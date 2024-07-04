@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lozada Rubi y Renteria Solmayra- 4AP Turno mañana </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="estilos.css">
+<!--font krub-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+<!--font bodonimoda-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-custom sticky-top ">
+            <div class="container">
+
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <h1><img src="img/logotipo.png" alt="Logo" class="logotipo d-inline-block align-top">
+                </a></h1>
+                </a>
+                <!-- Botón de colapso para móviles -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menú de navegación -->
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="obras.html">Obras</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="visita.html">Visita</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="tienda.html">Tienda</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="carrouselSection">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner-1.jpg" class="d-block w-100 img-fluid" alt="banner-1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Museo del Louvre</h2>
+                        <p>Descubre la belleza de este lugar increíble</p>
+                        <a href="visita.html" class="btn btn-carousel">Comprar aquí</a>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="img/banner-2.jpg" class="d-block w-100 img-fluid" alt="banner-2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Colecciones del museo</h2>
+                        <p>Descubre la belleza de este lugar increíble</p>
+                        <a href="obras.html" class="btn">Entrar</a>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="img/banner-3.jpg"  class="d-block w-100 img-fluid"  alt="banner-3">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!--artistas impresionismo y del museo-->
+    <section class="fondo-1">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col py-2 text-center">
+                    <h2>Artistas destacados del impresionismo</h2>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-xl-3 col-md-6 col-sm-12 mb-4 ">
+                    <div class="card">
+                        <img src="img/foto-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3>Claude Monet</h3>
+                            <p class="card-text">Claude Monet uno de los creadores del
+                                impresionismo. El término impresionismo deriva del título de su obra Impresión, sol
+                                naciente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card">
+                        <img src="img/foto-2.jpg" class="card-img-top  img-fluid" alt="...">
+                        <div class="card-body">
+                            <h3>Pierre Renoir</h3>
+                            <p class="card-text">Pierre Auguste Renoir fue un pintor francés impresionista, en la
+                                segunda parte de su carrera se interesó las pinturas renacentistas y barrocas.​​​</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card">
+                        <img src="img/foto-3.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h3>Camille Pissarro</h3>
+                            <p class="card-text">Jacob Abraham Camille Pissarro, más conocido como Camille Pissarro, fue
+                                un pintor y grabador impresionista franco-danés.​ </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card">
+                        <img src="img/foto-1.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h3>Édouard Manet</h3>
+                            <p class="card-text">Édouard Manet fue un pintor y grabador francés, reconocido por la
+                                influencia que ejerció sobre los iniciadores del impresionismo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--fotos de impresionismo-->
+    <section>
+        <div class="container ">
+            <div class="row text-center">
+                <h2>Colecciones que verás en Louvre</h2>
+            </div>
+            <div class="row py-5" id="gallery-impresionismo">
+                <div class="col-sm-4 col-md-4 col-lg-4mb-4 ">
+                    <img src="img/Berthe Morisot con un ramo de violetas Edouard Manet.jpg" alt="louvre/obras"
+                        class="img-fluid py-2  gallery-impresionismo" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal1" data-bs-image="img/Le gobelet dargentxxx.jpg">
+
+                    <img src="img/Camille_Pissarro_Jardin_potager_a_lErmitage_Pontoise 1.jpg" alt="louvre/obras"
+                        class="img-fluid py-2 gallery-impresionismo" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal2" data-bs-image="image2.jpg">
+
+                    <img src="img/Les-Nympheas-Claude-Monet-musee-orangerie-fabricadeimaginacion-2.jpg"
+                        alt="louvre/obras" class="img-fluid py-2 gallery-impresionismo" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal3" data-bs-image="image3.jpg">
+
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 mb-4 ">
+                    <img src="img/Camille_Pissarro_Boulevard_Montmartre,_morning,_cloudy_weather.jpg" alt="louvre/obras"
+                        class="img-fluid py-2  gallery-impresionismo" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal1" data-bs-image="img/Le gobelet dargentxxx.jpg">
+
+                    <img src="img/edouard_Manet_Jeanne.jpg" alt="louvre/obras"
+                        class="img-fluid py-2 gallery-impresionismo" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal2" data-bs-image="image2.jpg">
+
+                    <img src="img/pintura-Manzanas-Y-Peras-En-Una-Cesta-Redonda.jpg" alt="louvre/obras"
+                        class="img-fluid py-2 gallery-impresionismo" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal3" data-bs-image="image3.jpg">
+
+                    <img src="img/Hay_Harvest_at_eragny_by_Camille_Pissarro.jpg" alt="louvre/obras"
+                        class="img-fluid py-2 gallery-impresionismo" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal3" data-bs-image="image3.jpg">
+
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 mb-4 ">
+                    <img src="img/Claude_Monet_Camille_Monet_sur_son_lit_de_mort.jpg" alt="louvre/obras"
+                        class="img-fluid py-2  gallery-impresionismo" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal1" data-bs-image="img/Le gobelet dargentxxx.jpg">
+
+                    <img src="img/Claude_Monet_The_Gare_Saint-Lazare,_Arrival_of_a_Train.jpg" alt="louvre/obras"
+                        class="img-fluid py-2 gallery-impresionismo" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal2" data-bs-image="image2.jpg">
+
+                    <img src="img/Renoir_Madame_Georges_Charpentier_et_ses_enfants.jpg" alt="louvre/obras"
+                        class="img-fluid py-2 gallery-impresionismo" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal3" data-bs-image="image3.jpg">
+
+                    <img src="img/Pissarro_Pont_Boieldieu_in_Rouen_Rainy_Weather.jpg" alt="louvre/obras"
+                        class="img-fluid py-2 gallery-impresionismo" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal3" data-bs-image="image3.jpg">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container py-3">
+        <div class="row text-center d-flex justify-content-center mt-lg-4 mx-lg-5 px-lg-5 ">
+            <div class="col-12 col-md-4 mb-5 mb-md-0">
+                <i class="bi bi-telephone-fill fs-1" style="color: #E65C4F;"></i>
+                <h3 class="mb-0">Teléfono</h3>
+                <p class="mb-0 mt-1">Llamanos</p>
+                <p class="mb-0 mt-1">+33 1 40 20 53 17</p>
+            </div>
+            <div class="col-12 col-md-4 mb-5 mb-md-0">
+                <i class="bi bi-envelope-fill fs-1" style="color: #E65C4F;"></i>
+                <h3 class="mb-0">Correo electronico</h3>
+                <p class="mb-0 mt-1">Envianos un mensaje</p>
+                <p class="mb-0 mt-1">museedulouvre@gmail.com</p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="bi bi-clock-fill fs-1" style="color: #E65C4F;"></i>
+                <h3 class="mb-0">Horarios</h3>
+                <p class="mb-0 mt-1">Lunes a Domingo</p>
+                <p class="mb-0 mt-1">10:30 - 18:30</p>
+            </div>
+        </div>
+    </div>
+    <!--comentarios -->
+    <section>
+        <div class="container py-4">
+            <div class="row ">
+                <div class="col-xl-3 col-md-6 col-sm-12 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-person-circle   fs-3 "></i>
+                            <h3 class="card-title">Jose Ant</h3>
+                            <p class="card-text">La cultura siempre es un 10, es este caso un 11.
+                                IMPRESIONANTE es imperdible.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-person-circle   fs-3   "></i>
+                            <h3 class="card-title">Viniza Luna</h3>
+                            <p class="card-text">Es un gran lugar al que hay que invertirle bastante tiempo si se quiere
+                                apreciar mejor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-person-circle   fs-3  "></i>
+                            <h3 class="card-title">
+                                Geraldine Yukki</h3>
+                            <p class="card-text">Me encantó mucho el museo y todas las salas me encantaron. Ame todas
+                                las pinturas y esculturas </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-person-circle fs-3"></i>
+                            <h3 class="card-title">Liu Reina</h3>
+                            <p class="card-text">Sin duda visita obligada en Paris. Disfrútalo es una maravilla, tanto
+                                por dentro como por fuera.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class=" mt-5">
+        <div class="container  py-4">
+            <div class="row py-4 ">
+                <div class="col-md-4 mb-3 footer-link">
+                    <h4>Acerca del Museo</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="https://www.louvre.fr/es/visita/reglamento-de-visita" target="_blank"
+                                class="nav-link p-0 footer-link">Reglamento de visita</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="https://www.louvre.fr/es/prestamos-y-depositos" target="_blank"
+                                class="nav-link p-0 footer-link">Metodo de pago</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="https://manager.e-questionnaire.com/questionnaire.asp?a=LBhJbRLDCW&l=es"
+                                target="_blank" class="nav-link p-0 footer-link">Danos tu opinión</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3 footer-link">
+                    <h4>Grupo 8</h4>
+                    <ul class="nav flex-column ">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 footer-link">Lozada Rubi</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 footer-link">Renteria Solmayra</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 footer-link">Diseño web</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 footer-link">4AP</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3 footer-link">
+                    <h4>SÍGUENOS</h4>
+                    <ul class="list-unstyled d-flex">
+                        <li>
+                            <a href="https://www.facebook.com/museedulouvre" target="_blank"><i
+                                    class="bi bi-facebook fs-3 "></i></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/museelouvre/" target="_blank"><i
+                                    class="bi bi-instagram fs-3  ms-3"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/museelouvre" target="_blank"><i
+                                    class="bi bi-twitter-x  fs-3  ms-3 "></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

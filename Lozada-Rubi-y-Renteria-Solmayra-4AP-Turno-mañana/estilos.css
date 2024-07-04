@@ -1,0 +1,173 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+/**index*/
+/**header*/
+header {
+   background-color: #2A3950;
+}
+
+.nav-link {
+   font-family: "Krub", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   font-style: normal;
+
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+   color: #E9EEF2;
+}
+
+.navbar-custom .nav-link:hover {
+   color: #E65C4F;
+}
+
+.carousel-caption h2 { 
+   font-family: "Krub", sans-serif;
+   font-size: 60px;
+   font-weight: 700;
+   font-style: normal;
+   color: #E9EEF2;
+}
+h2{
+   font-family: "Bodoni Moda", serif;
+   font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 50px;
+   color: #2A3950;
+}
+h3{
+   font-family: "Bodoni Moda", serif;
+   font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 30px;
+   color: #2A3950;
+}
+p{
+   font-family: "Krub", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   font-style: normal;
+}
+
+.bi-person-circle{
+   color: #E65C4F;
+}
+
+.card{
+   background-color: #E9EEF2;
+}
+/*en index no cuadra el fondo*/
+@media(min-width: 992px) {
+   body {
+      background-image: url(img/webps\ copy.jpg);
+      background-size: cover;
+   }
+}
+
+/*fotos de impresionismo*/
+#gallery-impresionismo {
+   border-radius: 50px;
+}
+
+.gallery-impresionismo {
+   cursor: pointer;
+   border-radius: 50px;
+   transition: transform 0.2s;
+}
+
+.gallery-impresionismo:hover {
+   transform: scale(1.05);
+}
+
+/*footer*/
+footer {
+   background-color: #2A3950;
+}
+
+.footer-link {
+   color: #E9EEF2;
+}
+
+.footer-link:hover {
+   color: #E65C4F;
+}
+
+.bi-facebook {
+   color: #E9EEF2;
+}
+
+.bi-facebook:hover {
+   color: #E65C4F;
+}
+
+.bi-instagram {
+   color: #E9EEF2;
+}
+
+.bi-instagram:hover {
+   color: #E65C4F;
+}
+
+.bi-twitter-x {
+   color: #E9EEF2;
+}
+
+.bi-twitter-x:hover {
+   color: #E65C4F;
+}
+
+/*obras*/
+.obras-h1{
+   font-family: "Bodoni Moda", serif;
+   font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 50px;
+   color: #2A3950;
+}
+#mansory-gallery img {
+   border-radius: 50px;
+}
+
+.gallery-img {
+   cursor: pointer;
+   border-radius: 16px;
+   transition: transform 0.2s;
+}
+
+.gallery-img:hover {
+   transform: scale(1.05);
+}
+
+/*historia*/
+.text-justify {
+   text-align: justify;
+}
+
+/*visita*/
+.image-col {
+   padding-right: 0;
+}
+
+.info-content {
+   padding: 2rem;
+}
+.btn{
+   background-color: #2A3950;
+   color: #E9EEF2;
+}
+.btn:hover{
+   background-color: #E65C4F;
+   color: #E9EEF2;
+}
